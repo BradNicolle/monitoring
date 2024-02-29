@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>TR-17f963a sequence view</title>
+  <title>TR-0aaf062 sequence view</title>
 <style>
   body {
     margin: 0;
@@ -113,31 +113,31 @@
       </tr>
       <tr>
         <td>Test run identifier</td>
-        <td>TR-17f963a</td>
+        <td>TR-0aaf062</td>
       </tr>
       <tr>
         <td>Start time</td>
-        <td>2024-02-14 21:49:58 UTC</td>
+        <td>2024-02-29 03:24:39 UTC</td>
       </tr>
       <tr>
         <td>End time</td>
-        <td>2024-02-14 21:51:59 UTC</td>
+        <td>2024-02-29 03:26:41 UTC</td>
       </tr>
       <tr>
         <td>Test baseline identifier</td>
-        <td>TB-0971800</td>
+        <td>TB-69a703c</td>
       </tr>
       <tr>
         <td>Environment identifier</td>
-        <td>TE-5f6d488</td>
+        <td>TE-4c7ef6f</td>
       </tr>
       <tr>
         <td>Codebase version</td>
-        <td>BradNicolle/monitoring/v0.0.0-f435843</td>
+        <td>BradNicolle/monitoring/v0.0.0-f59e33d</td>
       </tr>
       <tr>
         <td>Commit hash</td>
-        <td>f435843169003f2ccbbc2b30571da5e8abe3baf2</td>
+        <td>f59e33d463fa34b48441b3e5244dbc16ee335da2</td>
       </tr>
     </table>
   </div>
@@ -789,6 +789,18 @@
       <li class="not_collapseable">
         <div class="node_key">participant_id</div>:
         <div class="node_value">    uss1
+</div>
+      </li>
+      <li class="collapseable">
+        <div class="node_key">user_participant_ids</div>:
+        <div class="node_value">      <ul>
+      <li class="not_collapseable">
+        <div class="node_key">item_1</div>:
+        <div class="node_value">    mock_uss
+</div>
+      </li>
+  </ul>
+
 </div>
       </li>
       <li class="not_collapseable">
@@ -1726,6 +1738,18 @@
         <div class="node_value">    uss1
 </div>
       </li>
+      <li class="collapseable">
+        <div class="node_key">user_participant_ids</div>:
+        <div class="node_value">      <ul>
+      <li class="not_collapseable">
+        <div class="node_key">item_1</div>:
+        <div class="node_value">    mock_uss
+</div>
+      </li>
+  </ul>
+
+</div>
+      </li>
       <li class="not_collapseable">
         <div class="node_key">base_url</div>:
         <div class="node_value">    http://dss.uss1.localutm
@@ -2238,12 +2262,12 @@
         <div class="node_key">sequence_view</div>:
         <div class="node_value">      <ul>
       <li class="not_collapseable">
-        <div class="node_key">redact_access_tokens</div>:
+        <div class="node_key">render_kml</div>:
         <div class="node_value">    True
 </div>
       </li>
       <li class="not_collapseable">
-        <div class="node_key">render_kml</div>:
+        <div class="node_key">redact_access_tokens</div>:
         <div class="node_value">    True
 </div>
       </li>
@@ -2338,12 +2362,12 @@
 </div>
       </li>
       <li class="not_collapseable">
-        <div class="node_key">templated_reports</div>:
+        <div class="node_key">report_html</div>:
         <div class="node_value">    None
 </div>
       </li>
       <li class="not_collapseable">
-        <div class="node_key">report_html</div>:
+        <div class="node_key">templated_reports</div>:
         <div class="node_value">    None
 </div>
       </li>
@@ -2529,6 +2553,9 @@
         <th colspan="3">Suite / action generator</th>
       <th>Scenario</th>
         <th>
+            mock_uss
+        </th>
+        <th>
             uss1
         </th>
         <th>
@@ -2540,12 +2567,13 @@
       <th>Time</th>
     </tr>
       <tr>
-              <td rowspan="48" colspan="1">ASTM DSS tests</td>
-              <td rowspan="8" colspan="1">For each F3548 DSS instance</td>
-              <td rowspan="4" colspan="1">DSS testing for ASTM NetRID F3548-21</td>
+              <td rowspan="50" colspan="1">ASTM DSS tests</td>
+              <td rowspan="10" colspan="1">For each F3548 DSS instance</td>
+              <td rowspan="5" colspan="1">DSS testing for ASTM NetRID F3548-21</td>
             <td>
               <a href="s1.html">ASTM SCD DSS: Subscription Simple</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2557,6 +2585,7 @@
             <td>
               <a href="s2.html">ASTM SCD DSS: Subscription Validation</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2569,6 +2598,7 @@
               <a href="s3.html">ASTM F3548-21 UTM DSS Operational Intent Reference Access Control</a>
             </td>
               <td class="pass_result">&#x2705;</td>
+              <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
         <td>
@@ -2579,19 +2609,8 @@
             <td>
               <a href="s4.html">ASTM F3548-21 UTM DSS interoperability</a>
             </td>
-              <td class="pass_result">&#x2705;</td>
-              <td class="pass_result">&#x2705;</td>
             <td></td>
-        <td>
-            0:00
-        </td>
-      </tr>
-      <tr>
-              <td rowspan="4" colspan="1">DSS testing for ASTM NetRID F3548-21</td>
-            <td>
-              <a href="s5.html">ASTM SCD DSS: Subscription Simple</a>
-            </td>
-            <td></td>
+              <td class="pass_result">&#x2705;</td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
         <td>
@@ -2600,9 +2619,10 @@
       </tr>
       <tr>
             <td>
-              <a href="s6.html">ASTM SCD DSS: Subscription Validation</a>
+              <a href="s5.html">ASTM SCD DSS: Subscription Synchronization</a>
             </td>
             <td></td>
+              <td class="pass_result">&#x2705;</td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
         <td>
@@ -2610,9 +2630,11 @@
         </td>
       </tr>
       <tr>
+              <td rowspan="5" colspan="1">DSS testing for ASTM NetRID F3548-21</td>
             <td>
-              <a href="s7.html">ASTM F3548-21 UTM DSS Operational Intent Reference Access Control</a>
+              <a href="s6.html">ASTM SCD DSS: Subscription Simple</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -2622,8 +2644,45 @@
       </tr>
       <tr>
             <td>
-              <a href="s8.html">ASTM F3548-21 UTM DSS interoperability</a>
+              <a href="s7.html">ASTM SCD DSS: Subscription Validation</a>
             </td>
+            <td></td>
+            <td></td>
+              <td class="pass_result">&#x2705;</td>
+            <td></td>
+        <td>
+            0:00
+        </td>
+      </tr>
+      <tr>
+            <td>
+              <a href="s8.html">ASTM F3548-21 UTM DSS Operational Intent Reference Access Control</a>
+            </td>
+            <td></td>
+            <td></td>
+              <td class="pass_result">&#x2705;</td>
+            <td></td>
+        <td>
+            0:00
+        </td>
+      </tr>
+      <tr>
+            <td>
+              <a href="s9.html">ASTM F3548-21 UTM DSS interoperability</a>
+            </td>
+            <td></td>
+              <td class="pass_result">&#x2705;</td>
+              <td class="pass_result">&#x2705;</td>
+            <td></td>
+        <td>
+            0:00
+        </td>
+      </tr>
+      <tr>
+            <td>
+              <a href="s10.html">ASTM SCD DSS: Subscription Synchronization</a>
+            </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -2635,8 +2694,9 @@
               <td rowspan="20" colspan="1">For each F3411 DSS instance</td>
               <td rowspan="10" colspan="1">DSS testing for ASTM NetRID F3411-19</td>
             <td>
-              <a href="s9.html">ASTM NetRID DSS: Simple ISA</a>
+              <a href="s11.html">ASTM NetRID DSS: Simple ISA</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2646,8 +2706,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s10.html">ASTM NetRID DSS: Submitted ISA Validations</a>
+              <a href="s12.html">ASTM NetRID DSS: Submitted ISA Validations</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2657,8 +2718,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s11.html">ASTM NetRID DSS: ISA Expiry</a>
+              <a href="s13.html">ASTM NetRID DSS: ISA Expiry</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2668,8 +2730,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s12.html">ASTM NetRID DSS: ISA Subscription Interactions</a>
+              <a href="s14.html">ASTM NetRID DSS: ISA Subscription Interactions</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2679,8 +2742,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s13.html">ASTM NetRID DSS: Subscription Validation</a>
+              <a href="s15.html">ASTM NetRID DSS: Subscription Validation</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2690,8 +2754,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s14.html">ASTM NetRID DSS: Subscription Simple</a>
+              <a href="s16.html">ASTM NetRID DSS: Subscription Simple</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2701,8 +2766,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s15.html">ASTM F3411-19 NetRID DSS interoperability</a>
+              <a href="s17.html">ASTM F3411-19 NetRID DSS interoperability</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
               <td class="pass_result">&#x2705;</td>
               <td>&#x1F310;</td>
@@ -2712,8 +2778,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s16.html">ASTM NetRID DSS: Token Validation</a>
+              <a href="s18.html">ASTM NetRID DSS: Token Validation</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2723,8 +2790,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s17.html">ASTM NetRID DSS: Direct CRDB access</a>
+              <a href="s19.html">ASTM NetRID DSS: Direct CRDB access</a>
             </td>
+            <td></td>
             <td></td>
             <td></td>
             <td></td>
@@ -2734,8 +2802,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s18.html">ASTM NetRID DSS: Concurrent Requests</a>
+              <a href="s20.html">ASTM NetRID DSS: Concurrent Requests</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2746,8 +2815,9 @@
       <tr>
               <td rowspan="10" colspan="1">DSS testing for ASTM NetRID F3411-19</td>
             <td>
-              <a href="s19.html">ASTM NetRID DSS: Simple ISA</a>
+              <a href="s21.html">ASTM NetRID DSS: Simple ISA</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -2757,8 +2827,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s20.html">ASTM NetRID DSS: Submitted ISA Validations</a>
+              <a href="s22.html">ASTM NetRID DSS: Submitted ISA Validations</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -2768,8 +2839,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s21.html">ASTM NetRID DSS: ISA Expiry</a>
+              <a href="s23.html">ASTM NetRID DSS: ISA Expiry</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -2779,8 +2851,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s22.html">ASTM NetRID DSS: ISA Subscription Interactions</a>
+              <a href="s24.html">ASTM NetRID DSS: ISA Subscription Interactions</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -2790,8 +2863,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s23.html">ASTM NetRID DSS: Subscription Validation</a>
+              <a href="s25.html">ASTM NetRID DSS: Subscription Validation</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -2801,8 +2875,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s24.html">ASTM NetRID DSS: Subscription Simple</a>
+              <a href="s26.html">ASTM NetRID DSS: Subscription Simple</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -2812,8 +2887,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s25.html">ASTM F3411-19 NetRID DSS interoperability</a>
+              <a href="s27.html">ASTM F3411-19 NetRID DSS interoperability</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
               <td class="pass_result">&#x2705;</td>
               <td>&#x1F310;</td>
@@ -2823,8 +2899,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s26.html">ASTM NetRID DSS: Token Validation</a>
+              <a href="s28.html">ASTM NetRID DSS: Token Validation</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -2834,8 +2911,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s27.html">ASTM NetRID DSS: Direct CRDB access</a>
+              <a href="s29.html">ASTM NetRID DSS: Direct CRDB access</a>
             </td>
+            <td></td>
             <td></td>
             <td></td>
             <td></td>
@@ -2845,8 +2923,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s28.html">ASTM NetRID DSS: Concurrent Requests</a>
+              <a href="s30.html">ASTM NetRID DSS: Concurrent Requests</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -2858,8 +2937,9 @@
               <td rowspan="20" colspan="1">For each F3411 DSS instance</td>
               <td rowspan="10" colspan="1">DSS testing for ASTM NetRID F3411-22a</td>
             <td>
-              <a href="s29.html">ASTM NetRID DSS: Simple ISA</a>
+              <a href="s31.html">ASTM NetRID DSS: Simple ISA</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2869,8 +2949,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s30.html">ASTM NetRID DSS: Submitted ISA Validations</a>
+              <a href="s32.html">ASTM NetRID DSS: Submitted ISA Validations</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2880,8 +2961,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s31.html">ASTM NetRID DSS: ISA Expiry</a>
+              <a href="s33.html">ASTM NetRID DSS: ISA Expiry</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2891,8 +2973,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s32.html">ASTM NetRID DSS: ISA Subscription Interactions</a>
+              <a href="s34.html">ASTM NetRID DSS: ISA Subscription Interactions</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2902,8 +2985,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s33.html">ASTM NetRID DSS: Subscription Validation</a>
+              <a href="s35.html">ASTM NetRID DSS: Subscription Validation</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2913,8 +2997,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s34.html">ASTM NetRID DSS: Subscription Simple</a>
+              <a href="s36.html">ASTM NetRID DSS: Subscription Simple</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2924,8 +3009,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s35.html">ASTM F3411-22a NetRID DSS interoperability</a>
+              <a href="s37.html">ASTM F3411-22a NetRID DSS interoperability</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
               <td class="pass_result">&#x2705;</td>
               <td>&#x1F310;</td>
@@ -2935,8 +3021,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s36.html">ASTM NetRID DSS: Token Validation</a>
+              <a href="s38.html">ASTM NetRID DSS: Token Validation</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2946,8 +3033,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s37.html">ASTM NetRID DSS: Direct CRDB access</a>
+              <a href="s39.html">ASTM NetRID DSS: Direct CRDB access</a>
             </td>
+            <td></td>
             <td></td>
             <td></td>
             <td></td>
@@ -2957,8 +3045,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s38.html">ASTM NetRID DSS: Concurrent Requests</a>
+              <a href="s40.html">ASTM NetRID DSS: Concurrent Requests</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
             <td></td>
@@ -2969,8 +3058,9 @@
       <tr>
               <td rowspan="10" colspan="1">DSS testing for ASTM NetRID F3411-22a</td>
             <td>
-              <a href="s39.html">ASTM NetRID DSS: Simple ISA</a>
+              <a href="s41.html">ASTM NetRID DSS: Simple ISA</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -2980,8 +3070,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s40.html">ASTM NetRID DSS: Submitted ISA Validations</a>
+              <a href="s42.html">ASTM NetRID DSS: Submitted ISA Validations</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -2991,8 +3082,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s41.html">ASTM NetRID DSS: ISA Expiry</a>
+              <a href="s43.html">ASTM NetRID DSS: ISA Expiry</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -3002,8 +3094,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s42.html">ASTM NetRID DSS: ISA Subscription Interactions</a>
+              <a href="s44.html">ASTM NetRID DSS: ISA Subscription Interactions</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -3013,8 +3106,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s43.html">ASTM NetRID DSS: Subscription Validation</a>
+              <a href="s45.html">ASTM NetRID DSS: Subscription Validation</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -3024,8 +3118,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s44.html">ASTM NetRID DSS: Subscription Simple</a>
+              <a href="s46.html">ASTM NetRID DSS: Subscription Simple</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -3035,8 +3130,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s45.html">ASTM F3411-22a NetRID DSS interoperability</a>
+              <a href="s47.html">ASTM F3411-22a NetRID DSS interoperability</a>
             </td>
+            <td></td>
               <td class="pass_result">&#x2705;</td>
               <td class="pass_result">&#x2705;</td>
               <td>&#x1F310;</td>
@@ -3046,8 +3142,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s46.html">ASTM NetRID DSS: Token Validation</a>
+              <a href="s48.html">ASTM NetRID DSS: Token Validation</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
@@ -3057,8 +3154,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s47.html">ASTM NetRID DSS: Direct CRDB access</a>
+              <a href="s49.html">ASTM NetRID DSS: Direct CRDB access</a>
             </td>
+            <td></td>
             <td></td>
             <td></td>
             <td></td>
@@ -3068,8 +3166,9 @@
       </tr>
       <tr>
             <td>
-              <a href="s48.html">ASTM NetRID DSS: Concurrent Requests</a>
+              <a href="s50.html">ASTM NetRID DSS: Concurrent Requests</a>
             </td>
+            <td></td>
             <td></td>
               <td class="pass_result">&#x2705;</td>
             <td></td>
